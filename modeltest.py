@@ -7,4 +7,7 @@ print("Train size", len(train_df))
 print("Test size", len(test_df))
 train_df.head(n=3)
 
+print(train_df["medical_specialty"].value_counts())
+
 # i <3 u dani
+#i luv adam
