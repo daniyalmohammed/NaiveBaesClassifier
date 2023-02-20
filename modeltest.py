@@ -8,3 +8,4 @@ print("Test size", len(test_df))
 train_df.head(n=3)
 
 # i <3 u dani
+#i luv adam
