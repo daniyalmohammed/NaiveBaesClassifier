@@ -1,9 +1,32 @@
 import nltk
+import pandas as pd
+import csv
+from nltk.corpus import wordnet
+from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
+
+words = ["jump", "jumped", "jumps", "jumping"]
+stemmer = PorterStemmer()
+for word in words:
+    print(word + " = " + stemmer.stem(word))
 
 lemmatizer = WordNetLemmatizer()
 text = "studies studying cries cry"
 tokenization = nltk.word_tokenize(text)
-for w in tokenization:
+#for w in tokenization:
 
-    print("Lemma for {} is {}".format(w, wordnet_lemmatizer.lemmatize(w)))
+    #print("Lemma for {} is {}".format(w, lemmatizer.lemmatize(w)))
+
+df = pd.read_csv('test1.csv')
+
+# Create a new column for the lemmatized text
+lemmatizer = WordNetLemmatizer()
+df['new_transcription'] = df['transcription'].apply(lambda x: ' '.join([stemmer.stem(word) for word in x.split()]))
+
+# Save the updated DataFrame to a new CSV file
+df.to_csv('outut1.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)
+
+
+
+
