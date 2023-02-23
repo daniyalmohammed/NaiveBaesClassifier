@@ -1,6 +1,7 @@
 # Medical Transcript Classification using Naive Bayes
 
 ![Data Science Hackathon](https://img.shields.io/badge/Data%20Science-Hackathon-blue)
+![Alt text](./ProjectImages/screenshot1.png)
 
 ## Table of Contents
 
