@@ -11,7 +11,7 @@ df = pd.read_csv('new_train.csv')
 X_train, X_test, y_train, y_test = train_test_split(df['transcription'], df['medical_specialty'], test_size=0.3, random_state=22)
 
 # Vectorize the text data
-vectorizer = CountVectorizer(stopword='english'stopword='english')
+vectorizer = CountVectorizer(stopword='english')
 X_train_vec = vectorizer.fit_transform(X_train)
 X_test_vec = vectorizer.transform(X_test)
 
