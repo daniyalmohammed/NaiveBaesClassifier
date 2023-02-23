@@ -22,3 +22,9 @@ clf.fit(X_train_vec, y_train)
 # Evaluate the model
 score = clf.score(X_test_vec, y_test)
 print('Accuracy:', score)
+
+from sklearn.metrics import f1_score
+macro_f1 = f1_score(y_test, y_pred, average='macro')
+micro_f1 = f1_score(y_test, y_pred, average='micro')
+print("Macro F1-score: {:.2f}".format(macro_f1))
+print("Micro F1-score: {:.2f}".format(micro_f1))
