@@ -23,7 +23,7 @@ X_test_vectors = vectorizer.transform(X_test)
 
 # Define the hyperparameters to tune for each classifier
 nb_params = {'alpha': [0.1, 0.5, 1.0]}
-#svm_params = {'C': [0.1, 0.5, 1.0]}
+svm_params = {'C': [0.1, 0.5, 1.0]}
 #dt_params = {'max_depth': [5, 10, 15], 'min_samples_split': [2, 5, 10], 'min_samples_leaf': [1, 2, 4]}
 #gb_params = {'n_estimators': [50, 100, 200], 'max_depth': [5, 10, 15], 'learning_rate': [0.1, 0.5, 1.0]}
 #rf_params = {'n_estimators': [50, 100, 200], 'max_depth': [5, 10, 15], 'min_samples_split': [2, 5, 10], 'min_samples_leaf': [1, 2, 4]}
@@ -33,7 +33,7 @@ xgb_params = {'n_estimators': [50, 100, 200], 'max_depth': [5, 10, 15], 'learnin
 
 # Train and evaluate each classifier using grid search and cross-validation
 classifiers = [('Naive Bayes', MultinomialNB(), nb_params),
-               #('Support Vector Machines', LinearSVC(), svm_params),
+               ('Support Vector Machines', LinearSVC(), svm_params),
                #('Decision Tree', DecisionTreeClassifier(), dt_params),
                #('Gradient Boosting', GradientBoostingClassifier(), gb_params),
                #('Random Forest', RandomForestClassifier(), rf_params),
