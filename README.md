@@ -26,6 +26,8 @@ We used the Naive Bayes theorem to classify the medical transcript data. Naive B
 
 We preprocessed the data by removing stop words, stemming the words, and converting the text to lowercase. We then used the CountVectorizer function from scikit-learn to convert the text into a matrix of word frequencies. We trained the Multinomial Naive Bayes algorithm on the training data and evaluated its performance on the testing data.
 
+![Alt text](ClassificationModels/ProjectPictures/screenshot2.png)
+
 ## Technology Stack
 
 We used the following technologies to build our project:
