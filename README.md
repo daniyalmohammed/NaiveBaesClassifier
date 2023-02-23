@@ -1,6 +1,7 @@
-# Medical Transcript Classification using Naive Bayes
+# Medical Transcript Classification using Naive Bayes Classification Model
 
 ![Data Science Hackathon](https://img.shields.io/badge/Data%20Science-Hackathon-blue)
+![Alt text](ClassificationModels/ProjectPictures/screenshot1.png)
 
 ## Table of Contents
 
@@ -24,6 +25,8 @@ We used a dataset of medical transcripts collected from various medical specialt
 We used the Naive Bayes theorem to classify the medical transcript data. Naive Bayes is a probabilistic algorithm that calculates the probability of a given input belonging to a particular class. We used the Multinomial Naive Bayes algorithm, which is commonly used for text classification tasks. 
 
 We preprocessed the data by removing stop words, stemming the words, and converting the text to lowercase. We then used the CountVectorizer function from scikit-learn to convert the text into a matrix of word frequencies. We trained the Multinomial Naive Bayes algorithm on the training data and evaluated its performance on the testing data.
+
+![Alt text](ClassificationModels/ProjectPictures/screenshot2.png)
 
 ## Technology Stack
 
