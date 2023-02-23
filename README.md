@@ -8,8 +8,6 @@
 - [Data](#data)
 - [Methodology](#methodology)
 - [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
 
@@ -19,7 +17,7 @@ Medical transcription is the process of transcribing medical records from spoken
 
 ## Data
 
-We used a dataset of medical transcripts collected from various medical specialties. The dataset consisted of over 10,000 transcripts, and we split the dataset into training and testing datasets. We ensured that both the training and testing datasets had a similar distribution of transcripts across the medical specialties.
+We used a dataset of medical transcripts collected from various medical specialties. The dataset consisted of around 4,000 transcripts, and we split the dataset into training and testing datasets. We ensured that both the training and testing datasets had a similar distribution of transcripts across the medical specialties.
 
 ## Methodology
 
@@ -34,8 +32,17 @@ We used the following technologies to build our project:
 - Python
 - PyTorch
 - scikit-learn
+- JupyterNotebook
+- NLTK (natural language processing tools)
 
-## Installation
+The program will load the dataset, preprocess the data, and train the Multinomial Naive Bayes algorithm on the training data. It will then evaluate the performance of the algorithm on the testing data and output the accuracy score.
 
-To install the required packages, run the following command:
+## Conclusion
+
+In conclusion, our project demonstrates the effectiveness of using the Naive Bayes theorem for medical transcript classification. By automating the process of classifying medical transcripts, we can streamline the process of medical transcription and reduce the time taken to classify the transcription manually.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
+
 
