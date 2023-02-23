@@ -1,7 +1,7 @@
-# Medical Transcript Classification using Naive Bayes
+# Medical Transcript Classification using Naive Bayes Classification Model
 
 ![Data Science Hackathon](https://img.shields.io/badge/Data%20Science-Hackathon-blue)
-![Alt text](Intact-CxC-Data-Hackathon/ClassificationModels/ProjectPictures/screenshot1.png)
+![Alt text](ClassificationModels/ProjectPictures/screenshot1.png)
 
 ## Table of Contents
 
