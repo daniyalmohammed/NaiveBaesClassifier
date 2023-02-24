@@ -9,6 +9,7 @@
 - [Data](#data)
 - [Methodology](#methodology)
 - [Technology Stack](#technology-stack)
+- [Usage](#usage)
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
 
@@ -37,6 +38,10 @@ We used the following technologies to build our project:
 - scikit-learn
 - JupyterNotebook
 - NLTK (natural language processing tools)
+
+## Usage
+
+Clone the repo and open 'IntactClassificationNLPModel.ipynb'. From there, we have outlined all the steps and commented the code so users can see our process and receive predictions from our model.
 
 The program will load the dataset, preprocess the data, and train the Multinomial Naive Bayes algorithm on the training data. It will then evaluate the performance of the algorithm on the testing data and output the accuracy score.
 
