@@ -1,6 +1,5 @@
 # Medical Transcript Classification using Naive Bayes Classification Model
 
-![Intact Challenge - (Data Science) Winner🏆]
 ![Alt text](ClassificationModels/ProjectPictures/screenshot1.png)
 
 ## Table of Contents
