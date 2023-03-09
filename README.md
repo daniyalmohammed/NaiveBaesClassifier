@@ -7,7 +7,9 @@ medical specialties
 🏆 Intact Data Science Challenge 2023 Winner ($500+ Prize): https://devpost.com/software/intact-naive-bayes-classifier
 
 • Won the Intact Data Science challenge and utilized their dataset of over 4,000 medical transcripts to train the ML model
+
 • Addressed challenges in dataset preprocessing by cleaning and incorporating NLP methods to increase F-Score by 45%
+
 • Implemented Scikit-Learn pipeline to fine-tune parameters to maximize the effectiveness of the Naive Bayes model
 
 ![Alt text](ClassificationModels/ProjectPictures/screenshot1.png)
